@@ -1,0 +1,158 @@
+/* .App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+.AppHeader {
+  width: 1440px;
+  height: 92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 4px 20px 4px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.HeaderLeft {
+  line-height: 0;
+  height: 39px;
+  top: 30px;
+  left: 42px;
+}
+.popUp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  width: 196px;
+  height: 152px;
+  top: 50px;
+  left: 1350px;
+  position: absolute;
+  z-index: 10;
+  border-radius: 20px;
+}
+.image-text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.image-text img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.image-text p {
+  margin: 0;
+}
+.popUpButton {
+  margin-top: 10px;
+}
+
+.AppFooter {
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+.SideMenuAndPageContent {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.SideMenu {
+  width: 224px;
+  height: 987px;
+  top: 80px;
+}
+.SideMenuVertical {
+  height: 100%;
+}
+.PageContent {
+  padding-left: 12px;
+} */
+$background-color_1: white;
+$background-color_2: rgba(0, 0, 0, 0.05);
+
+.App {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	background-color: $background-color_1;
+}
+.AppHeader {
+	width: 1440px;
+	height: 92px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4px 20px 4px 12px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.HeaderLeft {
+	line-height: 0;
+	height: 39px;
+	top: 30px;
+	left: 42px;
+}
+.popUp {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: $background-color_1;
+	width: 196px;
+	height: 152px;
+	top: 50px;
+	left: 1350px;
+	position: absolute;
+	z-index: 10;
+	border-radius: 20px;
+}
+.image-text {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+	p {
+		margin: 0;
+	}
+}
+.popUpButton {
+	margin-top: 10px;
+}
+.AppFooter {
+	height: 50px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+.SideMenuAndPageContent {
+	display: flex;
+	flex: 1;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-color: $background-color_2;
+}
+.SideMenu {
+	width: 224px;
+	height: 987px;
+	top: 80px;
+}
+.SideMenuVertical {
+	height: 100%;
+}
+.PageContent {
+	padding-left: 12px;
+}
+
